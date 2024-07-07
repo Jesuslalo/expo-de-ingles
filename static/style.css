@@ -1,0 +1,64 @@
+/* CSS con ajustes para listas y fondo */
+
+body {
+    background-color: #26bd00;
+    font-family: 'Helvetica', Arial, sans-serif; 
+    color: #333;
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 36px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    font-size: 50px;
+    margin-left: 20px;
+    background-color: #f0f0f0; /* Color de fondo para listas no ordenadas */
+    padding: 10px; /* Relleno interno para listas no ordenadas */
+}
+
+li {
+    line-height: 5; /* Altura de línea para elementos de lista */
+    margin-bottom: 36px; /* Margen inferior para elementos de lista */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Color de fondo para el contenedor principal */
+    border-radius: 8px; /* Bordes redondeados para el contenedor */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra ligera para el contenedor */
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
